@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+.hyt {
+    display: inline-block;
+    margin-left: auto;
+    padding: 8px;
+    margin-top: 5px;
+    color: white;
+    border: solid 1px rgb(112, 226, 6) !important;
+    background-color: #0e1011;
+    border-radius: 11px;
+    margin-right: 15px;
+    transition: transform 250ms;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.hy {
+    visibility: hidden;
+    width: 100px;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border-radius: 4px;
+    position: fixed;
+    transition: transform 250ms;
+}
+.hyt:hover .hy {
+    visibility: visible;
+}
+.hyt img {
+    width: 180px;
+    border-radius: 12px;
+}
+.hyt p {
+    margin-top: -8px;
+}
+.hyt:hover {
+    transition: 0.3s;
+    transform: translateY(-5px);
+}
+.hyt:hover img {
+    border: solid 1px rgb(112, 226, 6) !important;
+}
+.ven {
+    display: inline-block;
+    margin-left: auto;
+    padding: 8px;
+    margin-top: 5px;
+    color: white;
+    border: solid 1px rgb(112, 226, 6) !important;
+    background-color: #0e1011;
+    border-radius: 11px;
+    margin-right: 15px;
+    transition: transform 250ms;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.v1 {
+    visibility: hidden;
+    width: 100px;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border-radius: 4px;
+    position: fixed;
+    transition: transform 250ms;
+}
+.ven:hover .v1 {
+    visibility: visible;
+}
+.ven img {
+    width: 180px;
+    border-radius: 12px;
+}
+.ven p {
+    margin-top: -8px;
+}
+.ven:hover {
+    transition: 0.3s;
+    transform: translateY(-5px);
+}
+.ven:hover img {
+    border: solid 1px rgb(112, 226, 6) !important;
+}
+.music {
+    display: inline-block;
+    margin-left: auto;
+    padding: 8px;
+    margin-top: 5px;
+    color: white;
+    border: solid 1px rgb(112, 226, 6) !important;
+    background-color: #0e1011;
+    border-radius: 11px;
+    margin-right: 15px;
+    transition: transform 250ms;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.m1 {
+    visibility: hidden;
+    width: 150px;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border-radius: 4px;
+    position: fixed;
+    transition: transform 250ms;
+}
+.music:hover .m1 {
+    visibility: visible;
+}
+.music img {
+    width: 180px;
+    border-radius: 12px;
+}
+.music p {
+    margin-top: -8px;
+}
+.music:hover {
+    transition: 0.3s;
+    transform: translateY(-5px);
+}
+.music:hover img {
+    border: solid 1px rgb(112, 226, 6) !important;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html land="en">
+<head>
+    <title>Atharva Kulkarni</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cont.css">
+    <meta name="description" content="Atharva Kulkarni | Web Developer">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="icon" href="assets/logo.png">
+</head>
+<body>
+    <div>
+		<nav class="navbar" id="nav">
+      	    <a id="hom" href="index.html">Home</a>
+      	    <a id="abt" href="#about">About</a>
+              <a id="pro" href="#projects">Projects</a>
+      	    <a id="con" href="#contact">Contact</a>
+        </nav>
+        <img src="assets/menu.svg" class="hide" onclick="togglemenu()">
+    </div>
+
+    <div class="main">
+        <img src="assets/logo.png" alt="My logo is suppsoed to be here...">
+        <h1>Atharva Kulkarni</h1>
+        <h3 id="type">
+            <span class="typing text-center"></span>
+        </h3>
+    </div>
+
+    <div class="about" id="about">
+        <h1>ABOUT ME</h1>
+        <p>Hello! I'm Atharva Kulkarni a student from Chhattisgarh<br>I study at Krishna Public School, I'm a Verified Bot Developer and a Web Developer<br>I'm currently learning Flask and Java, also, interested in React.js</p>
+    </div>
+
+    <div class="projects" id="projects">
+        <h1>PROJECTS</h1>
+        <div id="hyt" class="hyt">
+            <img src="assets/hyt.png" alt="hyterm">
+            <span class="hy">Hyterm is an Hypixel and general Minecraft bot.</span>
+            <h2>Hyterm</h2>
+            <p>Discord Bot</p>
+        </div>
+        <div id="ven" class="ven">
+            <img src="assets/ven.png" alt="venox">
+            <span class="v1">Venox Is an open-source bot which helps you gather Information.</span>
+            <h2>Venox</h2>
+            <p>Discord Bot</p>
+        </div>
+        <div class="music" id="music">
+            <img src="assets/cord.png" alt="music cord">
+            <span class="m1">Music cord is an easy use and setup music cog for py-cord with slash command support and is a fork of dismusic but for py-cord</span>
+            <h2>Music Cord</h2>
+            <p>Python Module</p>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <h1>CONTACT</h1>
+            <div class="con">
+                <label>
+                    <input id="name" type="text" name="name" placeholder="Name" minlength="1">
+                  </label>
+                  
+                  <label>
+                    <input id="email" type="email" name="email" placeholder="Email" minlength="3">
+                  </label>
+                  
+                  <label>
+                    <textarea id="msg" name="message" placeholder="Message" maxlength="800"></textarea>
+                  </label>
+            </div>
+            <button class="add" onclick="sendMessage()"><span>Submit</span></button>
+        </div>
+    </div>
+    <div class="end">
+        <p>Made with ❤ by Atharva Kulkarni</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
